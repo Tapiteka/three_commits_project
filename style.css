@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+#answer {
+    background-color: green;
+    color: green;
+    display: inline-block;
+}
