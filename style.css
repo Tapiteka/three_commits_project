@@ -1,10 +1,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aquamarine;
+    text-align: center;
 }
-
+.container {
+    background-color: rgba(15, 139, 220, .25);
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+}
 #answer {
     background-color: green;
     color: green;
     display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 4px 2px 10px .75;
+    padding: 0px 20px 0px 20px;
+}
+#answer-text:hover {
+    color: white;
 }
